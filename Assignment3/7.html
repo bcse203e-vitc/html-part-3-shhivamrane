@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .keynote {
+            background-color: #ffeb3b;
+        }
+        .workshop {
+            background-color: #8bc34a;
+        }
+        .legend {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Conference Timetable</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>9:00 AM</td>
+            <td class="keynote" colspan="2" title="Speaker: Dr. John Doe">Keynote: Opening</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>10:30 AM</td>
+            <td class="workshop" rowspan="2" title="Speaker: Alice Brown">Workshop: AI</td>
+            <td class="workshop" title="Speaker: Bob White">Workshop: Cloud Computing</td>
+            <td class="workshop" title="Speaker: Sam Green">Workshop: Blockchain</td>
+        </tr>
+        <tr>
+            <td>12:00 PM</td>
+            <td class="workshop" title="Speaker: Lisa Black">Workshop: Data Science</td>
+            <td class="workshop" title="Speaker: Mark Red">Workshop: IoT</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="legend">
+    <p><strong>Legend:</strong></p>
+    <ul>
+        <li><span style="background-color: #ffeb3b; padding: 5px;">Keynote</span> - Opening speeches</li>
+        <li><span style="background-color: #8bc34a; padding: 5px;">Workshop</span> - Interactive sessions</li>
+    </ul>
+</div>
+
+</body>
+</html>

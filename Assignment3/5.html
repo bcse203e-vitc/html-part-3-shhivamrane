@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    td {
+      background-color: #fff;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    .top-student {
+      background-color: #ffeb3b;
+      font-weight: bold;
+    }
+    .average {
+      background-color: #d9f7d9;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Class Grade Report</h1>
+  
+  <table>
+    <caption><strong>Grade Report - Fall 2025</strong></caption>
+    <thead>
+      <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Math</th>
+        <th>Science</th>
+        <th>English</th>
+        <th>Total Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Student rows -->
+      <tr class="top-student">
+        <td>101</td>
+        <td>Shivam Rane</td>
+        <td>95</td>
+        <td>90</td>
+        <td>92</td>
+        <td>277</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Aishwarya Kowta</td>
+        <td>93</td>
+        <td>88</td>
+        <td>95</td>
+        <td>276</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Avanish Jagu</td>
+        <td>85</td>
+        <td>87</td>
+        <td>82</td>
+        <td>254</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Erroju Vignesh</td>
+        <td>78</td>
+        <td>80</td>
+        <td>79</td>
+        <td>237</td>
+      </tr>
+      <tr class="highlight">
+        <td rowspan="2">105</td>
+        <td>Philip Carvalho</td>
+        <td>88</td>
+        <td>89</td>
+        <td>85</td>
+        <td>262</td>
+      </tr>
+      <tr class="highlight">
+        <td>Shridu Manish</td>
+        <td>88</td>
+        <td>89</td>
+        <td>85</td>
+        <td>262</td>
+      </tr>
+      <tr>
+        <td>106</td>
+        <td>Sidharth Nair</td>
+        <td>70</td>
+        <td>72</td>
+        <td>68</td>
+        <td>210</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="average">
+        <td colspan="2">Class Average</td>
+        <td>85.8</td>
+        <td>85.3</td>
+        <td>85.2</td>
+        <td>253.6</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
