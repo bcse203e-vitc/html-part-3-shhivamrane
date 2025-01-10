@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: right;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .total-sales {
+            color: green;
+        }
+        .highest-sales {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Sales Report</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Salesperson</th>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Unit Price</th>
+                <th>Total Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aishwarya Kowta</td>
+                <td>Product A</td>
+                <td>50</td>
+                <td>$25.00</td>
+                <td>$1,250.00</td>
+            </tr>
+            <tr>
+                <td>Shivam Rane</td>
+                <td>Product B</td>
+                <td>30</td>
+                <td>$40.00</td>
+                <td>$1,200.00</td>
+            </tr>
+            <tr>
+                <td>Avanish Jagu</td>
+                <td>Product A</td>
+                <td>60</td>
+                <td>$25.00</td>
+                <td>$1,500.00</td>
+            </tr>
+            <tr>
+                <td class="highlight">Erroju Vigesh</td>
+                <td class="highlight">Product C</td>
+                <td class="highlight">40</td>
+                <td class="highlight">$50.00</td>
+                <td class="highlight">$2,000.00</td>
+            </tr>
+            <tr>
+                <td>Anushka Rai</td>
+                <td>Product B</td>
+                <td>20</td>
+                <td>$40.00</td>
+                <td>$800.00</td>
+            </tr>
+            <tr>
+                <td>Philip Carvalho</td>
+                <td>Product C</td>
+                <td>15</td>
+                <td>$50.00</td>
+                <td>$750.00</td>
+            </tr>
+            <tr>
+                <td>Parth Nair</td>
+                <td>Product C</td>
+                <td>25</td>
+                <td>$50.00</td>
+                <td>$1,250.00</td>
+            </tr>
+            <tr>
+                <td>Siddharth Nair</td>
+                <td>Product A</td>
+                <td>35</td>
+                <td>$25.00</td>
+                <td>$875.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        Grand Total of All Sales: <span class="total-sales">$8,375.00</span><br>
+        <span class="highest-sales">Highest Sales Price: $2,000.00 (Product C)</span>
+    </div>
+
+</body>
+</html>
